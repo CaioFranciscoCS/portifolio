@@ -1,0 +1,17 @@
+:root {
+    --bg: #d4d8dc;
+    --img-bg: #fff;
+    --border: #F4A937;
+}
+
+body {
+    background-color: var(--bg);
+    border-bottom: 10px solid var(--border);
+    border-right: 10px solid var(--border);
+}
+
+.portifolio-imagem {
+    width: 227px;
+    height: 227px;
+    background-color: var(--img-bg);
+}
