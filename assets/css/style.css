@@ -50,3 +50,25 @@ body {
     align-items: center;
     gap: 16px;
 }
+
+h2 {
+    position: relative;
+    color: var(--font-small);
+    margin-bottom: 16px;
+
+}
+
+h2::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 50px;
+    height: 5px;
+    background-color: var(--border);
+}
+
+p {
+    text-align: justify;
+    line-height: 1.3;
+}
