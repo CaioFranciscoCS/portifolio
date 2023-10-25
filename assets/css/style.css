@@ -1,5 +1,7 @@
 :root {
     --bg: #d4d8dc;
+    --font-h1: #31353E;
+    --font-small: #4C4F57;
     --img-bg: #fff;
     --border: #F4A937;
 }
@@ -8,10 +10,28 @@ body {
     background-color: var(--bg);
     border-bottom: 10px solid var(--border);
     border-right: 10px solid var(--border);
+    font-family: 'ubuntu';
 }
 
 .portifolio-imagem {
     width: 227px;
     height: 227px;
     background-color: var(--img-bg);
+    border-radius: 100%;
+}
+
+.portifolio-name {
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--font-h1);
+    text-shadow: 0 6px 12px rgba(0, 0, 0, 0.35);
+}
+.portifolio-role {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--font-small);
+}
+
+.portifolio-contacts {
+    list-style: none;
 }
