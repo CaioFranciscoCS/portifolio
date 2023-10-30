@@ -27,6 +27,6 @@ btnProjects.addEventListener("click", ()=> {
     document.querySelector(".js-modal").style.display = "inline-block"
 })
 
-btnclose.addEventListener("click",()=> {
+btnclose.addEventListener("click", ()=> {
     document.querySelector(".js-modal").style.display = "none"
 } )
