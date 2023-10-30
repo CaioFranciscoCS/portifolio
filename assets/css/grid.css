@@ -32,3 +32,27 @@
     flex-direction: row;
     gap: 50px;
 }   
+
+@media screen and (max-width: 500px) {
+    .grid-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }   
+    .grid-row {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .grid-header_item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid-resume {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
