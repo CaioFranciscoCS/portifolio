@@ -6,7 +6,7 @@ let portifolioRole = document.querySelector (".js-portifolio-role")
 let resumeText = document.querySelector(".js-resume-text")
 let portifolioContacts = document.querySelector(".js-portifolio-contacts")
 let btnProjects = document.querySelector(".js-btn-projects")
-
+let btnClose = document.querySelector(".js-btn-close")
 
 
 portifolioName.innerText = username
@@ -26,3 +26,7 @@ for(let i = 0; i <social.length; i++) {
 btnProjects.addEventListener("click", ()=> {
     document.querySelector(".js-modal").style.display = "inline-block"
 })
+
+btnclose.addEventListener("click",()=> {
+    document.querySelector(".js-modal").style.display = "none"
+} )
